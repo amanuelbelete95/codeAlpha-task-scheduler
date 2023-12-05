@@ -1,0 +1,59 @@
+.main-contianer {
+  padding: 3px gray;
+  border: 10px solid gray;
+  width: 800px;
+  margin: auto 60px;
+}
+
+.task-form {
+  font-size: 30px;
+
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.task-input {
+  font-size: 20px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 40px;
+  border: 2px solid saddlebrown;
+}
+
+.submit-btn {
+  color: #772424;
+  font-size: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(12, 17, 12);
+}
+
+header h2 {
+  font-size: 30px;
+  color: #968383;
+}
+
+#select {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  border: 2px solid saddlebrown;
+  border-radius: 5px;
+}
+
+option {
+  width: 100px;
+}
+
+.message-container {
+  margin-bottom: 70px;
+  margin-left: 10px;
+}
+
+span {
+  color: #723030;
+  font-size: 15px;
+}

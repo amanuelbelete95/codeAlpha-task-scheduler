@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div>
+      <main class="main-contianer">
+        <header>
+          <h1>Task Scheduler</h1>
+        </header>
+
+        <form
+          class="task-form"
+          id="task-form">
+          <input
+            type="text"
+            class="task-input"
+            placeholder="Please put your tasks" />
+
+          <input
+            type="submit"
+            value="Check"
+            class="submit-btn" />
+
+          <hr />
+
+          <label for="select">Choose Task:</label>
+          <select
+            name="task"
+            id="select"
+            form="task-form"></select>
+        </form>
+
+        <div class="message-container">
+          <h2>Your Tasks and DeadLines</h2>
+          <p>
+            <strong>Select tasks </strong> and submit your tasks to check their
+            respective deadline message below!
+          </p>
+          <ul class="task-list">
+            <li>
+              <span>
+                Special Meeting with Dr.LUN should be completed by Tue Jan 23
+                2024 03:00:00 GMT+0300 (East Africa Time)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
